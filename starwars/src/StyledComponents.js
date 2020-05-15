@@ -37,12 +37,12 @@ const BigContainer = styled.div`
 `
 
 const CharacterContainer = styled.section`
-    margin: 3% auto; 
+    margin: 2% auto; 
     text-align: center; 
     width: 30%; 
     transition: transform .2s;
     border: 2px black solid;
-    background-color: white; 
+    background-color: #efefef; 
 
     &:hover {
         transform: scale(1.1); 
