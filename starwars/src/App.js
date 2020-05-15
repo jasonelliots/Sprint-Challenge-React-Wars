@@ -29,8 +29,9 @@ const App = () => {
 
   return (
     <BigContainer>
+      <section class ="title">
       <h1 className="Header">Choose Your Character </h1>
-
+      </section>
       <div>
       {characterList.map((characterObj, index) => {
        return <CharacterCreator key={index} characterObj={characterObj} />
